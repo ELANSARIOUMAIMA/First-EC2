@@ -1,0 +1,11 @@
+.terraform/
+.terraform.lock.hcl
+terraform.tfstate
+terraform.tfstate.backup
+*.tfvars
+.aws/
+# .terraform/          = downloaded plugins (heavy, not needed on github)
+# .terraform.lock.hcl  = lock file (optional to push)
+# terraform.tfstate    = VERY IMPORTANT → contains sensitive info about your infrastructure
+# *.tfvars             = variable files that might contain secrets
+# .aws/                = your AWS credentials folder
