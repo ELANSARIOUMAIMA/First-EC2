@@ -18,6 +18,7 @@ A simple EC2 instance on AWS using Terraform (Infrastructure as Code).
 
 ### AWS concepts learned
 - `AMI`      → Amazon Machine Image = the OS installed on EC2
+
 - `EC2`      → virtual machine on AWS
 - `IAM user` → identity used to connect AWS CLI to AWS account
 - `IAM role` → permissions for AWS services (not people)
